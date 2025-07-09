@@ -2,6 +2,7 @@ on:
   push:
 jobs:
   log-the-inputs:
+  
     runs-on: ubuntu-latest
     steps:
       - run: |
